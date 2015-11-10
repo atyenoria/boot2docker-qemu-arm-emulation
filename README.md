@@ -3,7 +3,7 @@ This repo enables boot2docker to run and build arm binaries using qemu and binfm
 
 #!!Caution!!
 Below task may give critical damage to docker host(boot2docker). So, If you accept possible risk, you can go ahead(I spoiled lots of docker hosts).
-In my opinion, refrain from destorying your docker host, you should reset below task in privileged docker container.
+In my opinion, refrain from destorying your docker host, you should reset below task in privileged docker container. Additionaly, for the most part, rebooting your local machine could solve this.
 
 # Usage
 Build docker image
