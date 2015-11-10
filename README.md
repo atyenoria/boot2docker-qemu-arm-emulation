@@ -1,6 +1,10 @@
 # Synopsis
 This repo enables boot2docker to run and build arm binaries using qemu and binfmt_misc. That means arm emulation.
 
+#!!Caution!!
+Below task may give critical damage to docker host(boot2docker). So, If you accept possible risk, you can go ahead.
+In my opinion, refrain from destorying your docker host, you should reset below task in privileged docker container.
+
 # Usage
 Build docker image
 
